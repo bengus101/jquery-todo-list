@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+	outline-style: solid;
+	outline-color: black 1px;
+}
+
+body {
+	outline-style: solid;
+	outline-color: black 1px;
+}
+
+#myForm {
+	text-align: center;
+}
