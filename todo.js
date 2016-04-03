@@ -22,6 +22,14 @@ $(document).ready(function() {
 	}
 });
 
+$(document).ready(function() {
+
+	var deleteTask = function(e) {
+		e.preventDefault();
+		$(this).parent().remove();
+	}
+});
+
 // $('add-todo').submit(function(e) {
 	// e.preventDefault(); <--event listener for submitting form & creating todo
 // })
