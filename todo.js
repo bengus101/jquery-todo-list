@@ -11,6 +11,17 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function() {
+
+	var taskText = $('add-task-input').val();
+
+	if (!taskText) {
+		alert('Add a task, dummy.');
+	} else {
+		add-task.push(taskText);
+	}
+});
+
 // $('add-todo').submit(function(e) {
 	// e.preventDefault(); <--event listener for submitting form & creating todo
 // })
