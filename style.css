@@ -1,14 +1,27 @@
 h1 {
 	text-align: center;
-	outline-style: solid;
-	outline-color: black 1px;
+	color: red;
+	/*outline-style: solid;*/
+	/*outline-color: black 1px;*/
 }
 
-body {
-	outline-style: solid;
-	outline-color: black 1px;
+/*body {*/
+	/*outline-style: solid;*/
+	/*outline-color: black 1px;*/
 }
 
 #myForm {
 	text-align: center;
 }
+
+.container {
+	outline-style: solid;
+	outline-color: black 1px;
+	height: 600px;
+	background-image: url(notebook.jpeg);
+	background-size: cover;
+	background-position: all;
+	text-align: center;
+
+}
+
